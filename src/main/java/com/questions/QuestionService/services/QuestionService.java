@@ -10,4 +10,6 @@ public interface QuestionService {
     Question getOne(Long id);
 
     List<Question> getQuestionOfQuiz(Long quizId);
+
+    Question update(Long questionId, Question question);
 }
